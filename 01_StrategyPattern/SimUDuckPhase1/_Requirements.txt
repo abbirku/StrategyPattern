@@ -1,0 +1,1 @@
+﻿Make a duck simulator. Where a duck can quick, swim and we can see its display.
