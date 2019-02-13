@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using _01_StrategyPattern.SimUDuckPhase1;
-using _01_StrategyPattern.SimUDuckPhase2;
 
 namespace _01_StrategyPattern
 {
@@ -17,13 +15,13 @@ namespace _01_StrategyPattern
             var redDuck = new SimUDuckPhase1.RedHeadDuck();
             var rubberDuck = new SimUDuckPhase1.RubberDuck();
 
-            mallDuck.Quick();
+            mallDuck.Quack();
             mallDuck.Swim();
             mallDuck.Display();
-            redDuck.Quick();
+            redDuck.Quack();
             redDuck.Swim();
             redDuck.Display();
-            rubberDuck.Quick();
+            rubberDuck.Quack();
             rubberDuck.Swim();
             rubberDuck.Display();
 
@@ -48,6 +46,28 @@ namespace _01_StrategyPattern
             rubberDuck2.Display();
 
             Console.WriteLine("\n\n");
+
+            //Phase three
+            var mallDuck3 = new SimUDuckPhase3.MallardDuck();
+            var redDuck3 = new SimUDuckPhase3.RedHeadDuck();
+            var rubberDuck3 = new SimUDuckPhase3.RubberDuck();
+            var woodenDuck3 = new SimUDuckPhase3.WoodenDuck();
+
+            mallDuck3.Quack("mallDuck3");
+            mallDuck3.Swim("mallDuck3");
+            mallDuck3.Display();
+            redDuck3.Quack("redDuck3");
+            redDuck3.Swim("redDuck3");
+            redDuck3.Fly("redDuck3");
+            redDuck3.Display();
+            rubberDuck3.Quack("rubberRuck3");
+            rubberDuck3.Swim("rubberRuck3");
+            rubberDuck3.Display();
+            woodenDuck3.Swim("woodenDuck3");
+            woodenDuck3.Display();
+
+            Console.WriteLine("\n\n");
+
         }
     }
 }

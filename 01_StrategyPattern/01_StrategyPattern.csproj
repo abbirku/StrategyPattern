@@ -54,9 +54,12 @@
     <Compile Include="SimUDuckPhase2\RedHeadDuck.cs" />
     <Compile Include="SimUDuckPhase2\RubberDuck.cs" />
     <Compile Include="SimUDuckPhase3\Duck.cs" />
+    <Compile Include="SimUDuckPhase3\IService\IFlyable.cs" />
+    <Compile Include="SimUDuckPhase3\IService\IQuackable.cs" />
     <Compile Include="SimUDuckPhase3\MallardDuck.cs" />
     <Compile Include="SimUDuckPhase3\RedHeadDuck.cs" />
     <Compile Include="SimUDuckPhase3\RubberDuck.cs" />
+    <Compile Include="SimUDuckPhase3\WoodenDuck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

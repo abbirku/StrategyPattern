@@ -13,7 +13,7 @@ namespace _01_StrategyPattern.SimUDuckPhase1
             //Console.WriteLine("Duck super class");
         }
 
-        public void Quick()
+        public void Quack()
         {
             Console.WriteLine("Duck is quacking");
         }
