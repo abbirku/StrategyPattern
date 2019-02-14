@@ -53,6 +53,18 @@
     <Compile Include="SimUDuckPhase2\MallardDuck.cs" />
     <Compile Include="SimUDuckPhase2\RedHeadDuck.cs" />
     <Compile Include="SimUDuckPhase2\RubberDuck.cs" />
+    <Compile Include="SimUDuckPhase4\Duck.cs" />
+    <Compile Include="SimUDuckPhase4\IService\IFlyable.cs" />
+    <Compile Include="SimUDuckPhase4\IService\IQuackable.cs" />
+    <Compile Include="SimUDuckPhase4\MallardDuck.cs" />
+    <Compile Include="SimUDuckPhase4\RedHeadDuck.cs" />
+    <Compile Include="SimUDuckPhase4\RubberDuck.cs" />
+    <Compile Include="SimUDuckPhase4\Service\FlyNoWay.cs" />
+    <Compile Include="SimUDuckPhase4\Service\FlyWithWings.cs" />
+    <Compile Include="SimUDuckPhase4\Service\MuteQuack.cs" />
+    <Compile Include="SimUDuckPhase4\Service\Quack.cs" />
+    <Compile Include="SimUDuckPhase4\Service\Spack.cs" />
+    <Compile Include="SimUDuckPhase4\WoodenDuck.cs" />
     <Compile Include="SimUDuckPhase3\Duck.cs" />
     <Compile Include="SimUDuckPhase3\IService\IFlyable.cs" />
     <Compile Include="SimUDuckPhase3\IService\IQuackable.cs" />
@@ -69,6 +81,8 @@
     <Content Include="SimUDuckPhase1\_Requirements.txt" />
     <Content Include="SimUDuckPhase2\_Feedback.txt" />
     <Content Include="SimUDuckPhase2\_Requirements.txt" />
+    <Content Include="SimUDuckPhase4\_Feedback.txt" />
+    <Content Include="SimUDuckPhase4\_Requirements.txt" />
     <Content Include="SimUDuckPhase3\_Feedback.txt" />
     <Content Include="SimUDuckPhase3\_Requirements.txt" />
   </ItemGroup>

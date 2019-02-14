@@ -1,0 +1,3 @@
+﻿Well thats good but there is a catch. I have 48 different duck types. So you wanna implement quack and
+fly behaviour for each one of it. You also need to check which duck has what behaviour. This is really
+rediculous.

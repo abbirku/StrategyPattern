@@ -68,6 +68,33 @@ namespace _01_StrategyPattern
 
             Console.WriteLine("\n\n");
 
+            //Phase four
+            var mallDuck4 = new SimUDuckPhase4.MallardDuck(new SimUDuckPhase4.Service.FlyNoWay(), new SimUDuckPhase4.Service.Quack());
+            var redDuck4 = new SimUDuckPhase4.RedHeadDuck(new SimUDuckPhase4.Service.FlyWithWings(), new SimUDuckPhase4.Service.Quack());
+            var rubberDuck4 = new SimUDuckPhase4.RubberDuck(new SimUDuckPhase4.Service.FlyNoWay(), new SimUDuckPhase4.Service.Spack());
+            var woodenDuck4 = new SimUDuckPhase4.WoodenDuck(new SimUDuckPhase4.Service.FlyNoWay(), new SimUDuckPhase4.Service.MuteQuack());
+
+            mallDuck4.PerformQuack("mallDuck4");
+            mallDuck4.Swim("mallDuck4");
+            mallDuck4.PerformFly("mallDuck4");
+            mallDuck4.Display();
+            
+            redDuck4.PerformQuack("redDuck4");
+            redDuck4.Swim("redDuck4");
+            redDuck4.PerformFly("redDuck4");
+            redDuck4.Display();
+
+            rubberDuck4.PerformQuack("rubberDuck4");
+            rubberDuck4.Swim("rubberDuck4");
+            rubberDuck4.PerformFly("rubberDuck4");
+            rubberDuck4.Display();
+
+            woodenDuck4.PerformQuack("woodenDuck4");
+            woodenDuck4.Swim("woodenDuck4");
+            woodenDuck4.PerformFly("woodenDuck4");
+            woodenDuck4.Display();
+
+            Console.WriteLine("\n\n");
         }
     }
 }
